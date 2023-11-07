@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-from register.models import registration, student
+from register.models import *
 # Create your models here.
 class feeBalance(models.Model):
     registration=models.ForeignKey(registration, on_delete=models.CASCADE)
